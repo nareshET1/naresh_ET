@@ -1,0 +1,66 @@
+.step {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 600px;
+
+
+}
+
+.text {
+    /* height: 390px; */
+    text-align: center;
+    width: 360px;
+    border: 1px solid gray;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin-top: 20px;
+
+}
+
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.oneline {
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.topone {
+    border: 1px solid gray;
+    height: 50px;
+    width: 360px;
+    margin-top: 10px;
+   
+
+}
+
+.image-1 {
+    display: flex;
+    width: 130px;
+    height: 90px;
+    text-align: center;
+    padding-bottom: 50px;
+
+
+}
+.adjust{
+    margin-bottom: 0px;
+}

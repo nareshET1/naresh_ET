@@ -1,0 +1,81 @@
+
+nav {
+  width: 100%;
+  height: 90px;
+  background: white;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  background-color: lightgreen;
+  border-radius: 10px;
+  text-align: center;
+}
+
+nav ul {
+  float: right;
+  display: flex;
+  justify-content: space-betweens;
+}
+
+nav li {
+  /* display: inline-block; */
+  list-style: none;
+
+}
+
+nav li a {
+  padding: 0px 15px;
+  text-decoration: none;
+  /* color: blue; */
+  text-align: right;
+
+}
+
+.text {
+  padding-left: 60px;
+  display: flex;
+  padding-bottom: 30px;
+
+
+}
+
+.join {
+  border: 4px;
+  font-size: 12px;
+  background-color: burlywood;
+  width: 500px;
+  height: 130px;
+  padding-left: 60px;
+  /* display: flex; */
+  border-radius: 30px;
+
+}
+
+.access {
+  display: flex;
+  justify-content: end;
+  height: 33px;
+  width: 35px;
+  background-color: blue;
+  border-radius: 50px;
+  padding-top: 10px;
+  margin-top: 50px;
+}
+
+.access-1 {
+  height: 30px;
+  width: 44px;
+  background-color: white;
+  border-radius: 45px;
+  padding-right: 10px;
+  /* padding-top: 30px; */
+  font-size: 22px;
+}
+/* .container-box{
+  
+  justify-content: center;
+  border-color: white;
+} */

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /* <!-- all with class="highlight" --> */
+    .highlight {
+        background-color: blue;
+    }
+    /* all p element with class="highlight" */
+    p.highlight{
+        font-style: italic;
+    }
+    /* all element with class 'highlight' as well as with class 'mainpoint' */
+    .highlight.mainpoint{
+        background-color: aquamarine;
+        color: violet;
+    }
+    sectoin > article{
+        color: green ;
+        font-size: 23px;
+    }
+    section > h2 {
+        color: brown;
+    }
+</style>
+</head>
+<body>
+    <h1 class="highlight"> element with class selector</h1>
+    <p>Tuesday is the traditional day for elections in the United States. The unofficial term Super Tuesday has been
+        used by journalists and political pundits to refer to presidential primary elections since at least 1976</p>
+    <p class="highlight"> this is p with class="highlight"</p>
+    <div class="mainpoint highlight">this is the main point of the entire artice
+    </div>
+    <h1>child selector</h1>
+    <section>
+        <h2>subheadimg</h2>
+        <div>
+            <article>Tuesday is the traditional day for elections in the United States</article>
+    </div>
+    </section>
+    <section>
+        <artice>article as a direct child of the sectoin element </artice>
+    </section>
+</body>
+
+</html>
